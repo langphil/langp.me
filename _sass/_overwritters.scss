@@ -1,0 +1,25 @@
+.p0 {
+	padding: 0;
+}
+.mb0 {
+	margin-bottom: 0 !important;
+}
+.blue-dark {
+	color: $primary;
+}
+.img-inline {
+	display: inline-block;
+	max-width: 49%;
+}
+.fz-5em {
+	font-size: 3em !important;
+}
+.gradient {
+	@include textGradient($primary,$secondary,$primary);
+	font-weight: bold;
+}
+@media screen and (min-width: 760px) {
+	.fz-5em {
+		font-size: 5em !important;
+	}
+}

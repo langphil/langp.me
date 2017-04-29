@@ -1,0 +1,38 @@
+<!-- Capture and store a URl -->
+{% capture location %}{{ page.url | split:"/" }}{% endcapture %}
+
+<header class="container-fluid">
+
+  <!-- Navigation -->
+
+  <a href="#" class="menu-button" id="menuButton">
+    <span class="burger-icon"></span>
+  </a>
+
+  <!-- <a href="{{ "/" | prepend: site.baseurl }}" class="header-logo"></a> -->
+
+  <nav role="navigation" id="nav">
+    <ul>
+      <li class="nav__item">
+        <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
+      </li>
+      {% for page in site.pages %}
+      <!-- Compare the page title to the URL -->
+
+        {% assign current = page.title | downcase %}
+
+        {% if page.title %}
+        <li {% if location == current %} class="nav__item--active" {% else %} class="nav__item" {% endif %}
+        >
+          <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </li>
+        {% endif %}
+
+      {% endfor %}
+    </ul>
+  </nav>
+
+
+</header>
+
+<div class="header-shadow"></div>

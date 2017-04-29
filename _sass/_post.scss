@@ -1,0 +1,143 @@
+// Post content
+
+.post {
+	position: relative;
+	margin: $mobile-nav-height auto $margin-s auto;
+	padding: $margin-s $margin-xs;
+
+	max-width: 768px;
+	font-family: $sans;
+	p {
+		margin-bottom: $margin-s;
+		font-size: $textSize-m;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+	a {
+	color: $secondary;
+	border-bottom: 1px solid #e6dfdf;
+		&:hover,&:focus {
+			text-decoration: none;
+			color: $primary-light;
+			border-bottom: 1px solid $primary-light;
+		}
+	}
+	blockquote {
+    padding: 15px 30px 15px 15px;
+    margin: $margin-s 0;
+    background-color: rgba($primary,.07);
+    border-left: 5px solid rgba($primary,.3);
+		font-size: $textSize;
+		font-family: $sans;
+		white-space: normal;
+		line-height: 1.5;
+	}
+	.read-more {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		transition: all .17s ease-in-out;
+		border: 0;
+		&:hover {
+			border: 0;
+		}
+	}
+}
+
+.post__container {
+	position: relative;
+	border-radius: 0;
+	margin-top: $margin-xs;
+	padding: $margin-s $margin-xs;
+	box-shadow: 0 0 40px rgba(0,0,0,.1);
+	transition: all .17s ease-in-out;
+	&:hover {
+		box-shadow: 0 0 35px rgba($black,.17);
+		transform: scale(1.03);
+	}
+}
+
+.post-image {
+		height: 300px;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+}
+.post-image-source {
+	color: #747474;
+	font-size: 1em;
+	margin-top: 5px;
+	margin-bottom: $margin-s;
+	text-align: center;
+	a {
+		border-bottom: 0;
+	}
+}
+
+
+a {
+	color: $text-color;
+	&:hover,&:focus {
+		text-decoration: none;
+		color: $text-color;
+	}
+}
+
+h1 a {
+	display: block; // mora biti radi duzih naslova koji nestaju na manjim uredajima
+	text-align: left;
+	border-bottom: none !important;
+	color: $primary !important;
+	&:hover {
+		border-bottom: none;
+	}
+}
+.post__meta {
+	display: block;
+	text-align: left;
+	position: relative;
+	margin-bottom: $margin-s;
+
+	// typography
+	font-family: $sans;
+	font-size: 1em;
+	color: #888;
+}
+
+.quote {
+	position: relative;
+	padding: $margin-s 0;
+
+	// typography
+	@include textGradient($primary,$primary-light,$primary);
+	font-size: $textSize-l;
+	font-style: italic;
+	font-weight: 600;
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 5%;
+		height: 35px;
+		width: 35px;
+		background: url("../img/quote-mark.svg");
+		opacity: .7;
+	}
+}
+
+// Breakpoints
+
+@media all and (min-width:760px) {
+	.post {
+		margin: $margin-s auto;
+		padding-top: $header-height;
+	}
+	.post__container {
+			margin: $margin-xs auto;
+			padding: $margin-s;
+			box-shadow: 0 0 40px rgba(0,0,0,.07);
+	}
+}

@@ -1,0 +1,152 @@
+html {
+	height: 100%;
+}
+.l-body {
+	background: $primary;
+	background: $landing-bg;
+	background-attachment: fixed;
+	min-height: 100%;
+	// overflow: hidden;
+
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.my-img {
+	position: relative;
+	height: 200px;
+	width: 200px;
+	background: url(../img/RM-BL.svg);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	// background-size: cover;
+	// border: 3px solid #fff;
+	// box-shadow: 0 0 55px rgba($white, .2);
+	// border: 4px solid $primary;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.l-title {
+	font-family: $sans;
+	font-weight: 400;
+	color: #fff !important;
+	margin-top: $margin-s;
+	margin-bottom: $margin-s;
+	padding-left: .75em;
+	padding-right: .75em;
+}
+.landing {
+		text-align: center;
+
+	nav {
+		ul {
+			font-size: $textSize;
+			li {
+				margin-top: $margin-s;
+				margin-bottom: $margin-s/2;
+				transition: all .3s;
+				a {
+					transition: all .3s;
+					padding: 0 25px;
+					border: 1px solid transparent;
+					font-family: $sans;
+					font-size: $textSize-xxl;
+					color: $white;
+					&:hover {
+						color: $secondary;
+						text-decoration: none;
+					}
+				}
+
+			}
+		}
+	}
+	.l-social-wrap {
+		ul {
+			font-size: $textSize;
+			margin-top: $margin-s/2;
+			margin-bottom: $margin-s;
+			li {
+				a {
+					// transition: all .3s;
+					color: #fff;
+					padding: 0 25px;
+					font-size: $h1;
+				}
+				&:hover {
+					a {
+						.twitter {
+							color: $twitter;
+						}
+						.instagram {
+							color: $instagram;
+						}
+						.github {
+							color: $github;
+						}
+						.dribbble {
+							color: $dribbble;
+						}
+
+					}
+				}
+
+			}
+
+		}
+	}
+}
+
+// Breakpoints
+
+@media all and (max-width:760px) {
+	.my-img {
+		height: 200px;
+		width: 200px;
+	}
+	#l-body {
+		padding: 25px;
+	}
+	.l-title {
+		padding: 10px;
+		font-size: $textSize-xl;
+	}
+	.landing {
+		nav ul li a {
+								padding: 0 5px;
+								font-size: $textSize-xl;
+		}
+
+		.l-social-wrap {
+			ul {
+				li a {
+					padding: 0 5px;
+					font-size: $textSize-xl;
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width:450px) {
+	.l-title {
+		font-size: $textSize-l;
+	}
+	.landing {
+		nav ul li a {
+								font-size: $textSize-l;
+		}
+
+		.l-social-wrap {
+			ul {
+				li a {
+					font-size: $textSize-l;
+				}
+			}
+		}
+	}
+}

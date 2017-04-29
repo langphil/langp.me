@@ -1,0 +1,112 @@
+// ******************************************************************
+// ******************************************************************
+//
+// 	  							C O L O R S
+//
+// ******************************************************************
+// ******************************************************************
+
+
+// General colors
+
+// $primary: #202C59;
+$primary: #003F84;
+$secondary: #EC5796;
+$green: #1EEF71;
+$pink: #e7b3dd;
+$orange: #F79256;
+$yellow: #FFFE9F;
+$grey-light: #d9d9d9;
+$black: #111;
+$white: #fff;
+
+
+// Color shades
+
+$primary-light: #20d0ff;
+$orange-light: lighten($orange,40%);
+$orange-dark: darken($orange,30%);
+
+
+// Socail media colors
+
+$twitter: #55acee;
+$instagram: #c13584;
+$snapchat: #fffc00;
+$dribbble: #ea4c89;
+$github: #666;
+
+
+
+
+// ******************************************************************
+// ******************************************************************
+//
+// 	  							F O N T S
+//
+// ******************************************************************
+// ******************************************************************
+
+
+// Text colors
+
+$text-color: rgba(0,0,0,.7);
+
+// Text sizes
+
+$h1: 3em;
+$textSize-xxl: 2.75em;
+$textSize-xl: 2em;
+$textSize-l: 1.5em;
+$textSize-m: 1.25em;
+$textSize: 1rem;
+
+// Font Families
+
+$sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+// ******************************************************************
+// ******************************************************************
+//
+// 	  						G R A D I E N T S
+//
+// ******************************************************************
+// ******************************************************************
+
+
+// Background gradients
+
+$header-bg: linear-gradient(10deg,$primary,lighten($primary-light,10%));
+$landing-bg: linear-gradient(-155deg,$primary-light,$primary);
+
+
+
+// Text gradients
+
+$highlighted-text-color: lighten($text-color, 10%);
+$textGradient-color: -webkit-linear-gradient(-295deg,$primary,$primary-light);
+
+
+
+
+// ******************************************************************
+// ******************************************************************
+//
+// 	  						 WIDTHS AND HEIGHTS
+//
+// ******************************************************************
+// ******************************************************************
+
+
+// Heights
+
+$header-height: 65px;
+$mobile-nav-height: 55px;
+
+// Margins
+
+$margin-l: 75px;
+$margin-m: 50px;
+$margin-s: 35px;
+$margin-xs: 17.5px;
