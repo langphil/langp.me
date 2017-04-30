@@ -20,7 +20,7 @@ html {
 	position: relative;
 	height: 200px;
 	width: 200px;
-	background: url(../img/RM-BL.svg);
+	background: url(../img/RM-B.svg);
 	background-position: 50%;
 	background-repeat: no-repeat;
 	// background-size: cover;
@@ -38,6 +38,7 @@ html {
 	margin-bottom: $margin-s;
 	padding-left: .75em;
 	padding-right: .75em;
+  //text-align: left;
 }
 .landing {
 		text-align: center;
@@ -74,7 +75,7 @@ html {
 				a {
 					// transition: all .3s;
 					color: #fff;
-					padding: 0 25px;
+					padding: 0 25px 0 0;
 					font-size: $h1;
 				}
 				&:hover {
@@ -91,7 +92,12 @@ html {
 						.dribbble {
 							color: $dribbble;
 						}
-
+						.flickr {
+							color: $flickr;
+						}
+						.linkedin {
+							color: $linkedin;
+						}
 					}
 				}
 

@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="643px" height="643px" viewBox="0 0 643 643" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>RM-BL</title>
+    <title>RM-Red</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="RM-BL" fill-rule="nonzero">
+        <g id="RM-Red" fill-rule="nonzero" fill="#000000">
             <g id="Page-1">
                 <g id="RM-Red">
-                    <g id="Page-1">
-                        <g id="RM-Red">
-                            <rect id="Rectangle_1_" fill="#000000" opacity="0.64158741" x="0" y="0" width="643" height="643"></rect>
-                            <polygon id="Shape" fill="#FFE40D" points="643 0 0 643 643 643"></polygon>
-                        </g>
-                    </g>
+                    <rect id="Rectangle_1_" opacity="0.190500453" x="0" y="0" width="643" height="643"></rect>
+                    <polygon id="Shape" points="643 0 0 643 643 643"></polygon>
                 </g>
             </g>
         </g>

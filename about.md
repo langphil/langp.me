@@ -10,7 +10,7 @@ Hello, I'm **Phil**. I'm a Web Developer and Creative Producer based in London.
 #### A little bit about me
 I'm a creative at heart. I'm also a bit of a data and privacy nerd. I aim to wield tech for good.
 
-I've been living in London for the last 6 years. In that time I've been worked with amazing teams on challenges surrounding [open data](https://theodi.org/ "Open Data Institute") and [privacy / security](https://projectsbyif.com/ "Projects by IF").
+I've been living in London for the last 6 years. In that time I've worked with some amazing teams on challenges surrounding [open data](https://theodi.org/ "Open Data Institute") and [privacy / security](https://projectsbyif.com/ "Projects by IF").
 
 Until recently I was a Developer at [IF](https://projectsbyif.com/ "Projects by IF"). Right now I'm freelancing as a Developer and Creative Producer while embarking upon some technical upskilling.
 
