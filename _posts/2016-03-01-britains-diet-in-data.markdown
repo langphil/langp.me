@@ -3,7 +3,7 @@ layout: post
 title: "Britain's Diet in Data"
 description: The British diet has undergone a transformation in the last half-century. Explore the changes across four decades and hundreds of food and drink categories in this interactive visualisation
 date: 2016-03-01 21:00:00
-categories: [jekyll]
+categories: [blog]
 tags: [data viz, odi, defra, portfolio, visualisation]
 image: /img/post/2016-03-01-britains-diet-in-data/1-open_data_sandwich.png
 image-source: Deborah Allwright / ODI
