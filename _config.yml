@@ -3,8 +3,8 @@ title: Phil Lang
 email: plangphoto@gmail.com
 description: Web Developer / Creative Producer.
 image: /img/profile.jpg
-url: "http://langp.me" # the base hostname & protocol for your site
-enforce_ssl: www.langp.me   # without any protocol
+url: "https://langp.me" # the base hostname & protocol for your site
+enforce_ssl: langp.me   # without any protocol
 twitter_username: langphil
 future: true # show posts with any date when published
 
