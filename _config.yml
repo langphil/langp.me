@@ -11,7 +11,7 @@ future: true # show posts with any date when published
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: blog/:year/:month/:day/:title/
 
 # Default settings
 defaults:
