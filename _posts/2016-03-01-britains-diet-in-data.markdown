@@ -20,8 +20,6 @@ You can explore the visualisation below, or visit the [micro-site here](http://b
 
 Explore the changes across four decades and hundreds of food and drink categories in this interactive visualisation, featuring data from the Department for [Environment, Food and Rural Affairs (Defra)](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs "Defra"){:target="_blank"}. Defra has just released almost 30 years of food diaries filled out by British families between the 1970s and 2000 as open data. This is part of #OpenDefra, and 2016: Year of Great British Food.
 
-You can find out more about the history of the data and how some food categories have been described here.
-
 ### Online and in the media
 *Washington Post* - [The slow death of the most British thing there is](https://www.washingtonpost.com/news/wonk/wp/2016/05/04/why-the-british-are-drinking-coffee-instead-of-tea/ "The slow death of the most British thing there is"){:target="_blank"}
 
@@ -35,4 +33,6 @@ You can find out more about the history of the data and how some food categories
 
 **All foodstuffs are measured in grams and all liquids in milliliters.**
 
+<!--
 <iframe src="http://odi.staging.kiln.digital/" frameborder="no" width="100%" height="1200px"></iframe>
+-->
