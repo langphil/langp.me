@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to avoid rain, with data and the Internet Of Things"
-description: Rain-Pi is a prototype IOT device that signifies when rain is due in the next period by turning on a blue LED when there is more than a 70% chance of rain.
+description: Rain-Pi is a prototype IOT device that signals when rain is due in the next period by turning on a blue LED when there is more than a 70% chance of rain.
 date: 2016-05-01 21:00:00
 categories: [blog]
 tags: [iot, data, data radiators, raspberry pi, making, portfolio]
