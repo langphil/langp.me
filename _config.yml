@@ -3,7 +3,7 @@ title: Phil Lang
 email: plangphoto@gmail.com
 description: Hello, I'm Phil. I'm a Web Developer and Creative Producer based in London. I'm a creative at heart. I'm also a bit of a data and privacy nerd. I aim to wield tech for good.
 image: /img/profile.jpg
-url: "https://langp.me" # the base hostname & protocol for your site
+url: https://langp.me # the base hostname & protocol for your site
 enforce_ssl: www.langp.me   # without any protocol
 twitter_username: langphil
 future: true # show posts with any date when published
