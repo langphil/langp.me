@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    {% include head.html %}
+  {% include head.html %}
 
   <body class="bg-fff">
 
@@ -15,6 +15,7 @@
       <span class="post__meta">{{ page.date | date: "%b %-d, %Y" }}</span>
     </div>
 
+    <!--
     {% if page.image %}
     <div class="post-image" style="background-image:url( /img/{{ page.image }} )"></div>
     {% endif %}
@@ -24,6 +25,7 @@
       <span>Image by </span><a href="{{ page.image-source }}">{{ page.image-author }}</a>
     </div>
     {% endif %}
+    -->
 
     {{ content }}
 

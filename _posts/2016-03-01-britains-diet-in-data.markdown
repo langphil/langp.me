@@ -1,12 +1,13 @@
 ---
-title:  "Britain's Diet in Data"
 layout: post
-date:   2016-03-01 21:00:00
+title: "Britain's Diet in Data"
+description: The British diet has undergone a transformation in the last half-century. Explore the changes across four decades and hundreds of food and drink categories in this interactive visualisation
+date: 2016-03-01 21:00:00
 categories: [jekyll]
 tags: [data viz, odi, defra, portfolio, visualisation]
-image:
-image-source:
-image-author:
+image: /img/post/2016-03-01-britains-diet-in-data/1-open_data_sandwich.png
+image-source: Deborah Allwright / ODI
+image-author: Deborah Allwright / ODI
 ---
 
 As part of my day job as Digital Production Editor at the [Open Data Institute](http://theodi.org "ODI"){:target="_blank"} I think a lot about data and how as a raw material it can be used to tell stories and convey meaning. Below is an example of a data visualisation I commissioned, working with a wonderful London based data visualisation and digital journalism studio called **[Kiln](https://www.kiln.digital/ "Kiln"){:target="_blank"}**.

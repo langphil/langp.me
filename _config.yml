@@ -1,7 +1,8 @@
 # Site settings
 title: Phil Lang
 email: plangphoto@gmail.com
-description: I'm Phil. I'm a Creative Producer and a Web Developer.
+description: Web Developer / Creative Producer.
+image: /img/profile.jpg
 url: "https://langp.me" # the base hostname & protocol for your site
 enforce_ssl: www.langp.me   # without any protocol
 twitter_username: langphil
