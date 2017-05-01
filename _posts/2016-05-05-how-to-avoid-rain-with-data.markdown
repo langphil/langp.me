@@ -1,12 +1,13 @@
 ---
-title:  "How to avoid rain, with data and the Internet Of Things"
 layout: post
-date:   2016-05-01 21:00:00
+title: "How to avoid rain, with data and the Internet Of Things"
+description: Rain-Pi is a prototype IOT device that signifies when rain is due in the next period by turning on a blue LED when there is more than a 70% chance of rain.
+date: 2016-05-01 21:00:00
 categories: [jekyll]
 tags: [iot, data, data radiators, raspberry pi, making, portfolio]
-image:
-image-source:
-image-author:
+image: /img/post/2016-05-05-how-to-avoid-rain-with-data/2-data_rad.jpg
+image-source: Phil Lang
+image-author: Phil Lang
 ---
 
 If you're anything like me you don't particularly like getting caught out in the rain (unless there are pina coladas involved). Like me you may also yearn to be less reliant on your phone for obtaining information and making decisions.

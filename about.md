@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: Hello, I'm Phil. I'm a Web Developer and Creative Producer based in London. I'm a creative at heart. I'm also a bit of a data and privacy nerd. I aim to wield tech for good.
 permalink: /about/
 ---
 <div class="my-img-about"></div>
