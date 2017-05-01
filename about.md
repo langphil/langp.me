@@ -34,6 +34,6 @@ I'm currently available for both Web Development and Creative Production freelan
 
 #### Find out more
 
-Check out [blog posts]( {{ "/blog" | prepend: site.baseurl }} ) or follow me on [Twitter](http://www.twitter.com/{{ site.twitter_username }}) to see what I've been up to lately.
+Check out [blog posts]( {{ "/blog" | prepend: site.baseurl }} ) or follow me on [Twitter](http://www.twitter.com/{{ site.twitter_username }}) to see what I've been up to.
 
 Get in touch. <a href="mailto:{{ site.email }}">Drop me an email!</a>
