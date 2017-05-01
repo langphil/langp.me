@@ -3,7 +3,7 @@ layout: post
 title: "Finding empathy in 604,596 lines of migration data"
 description: Irish Ships is a Twitter Bot that is tweeting its way through every human being to have arrived in New York Harbour during the Great Famine in Ireland (1846 - 1851)
 date: 2016-09-01 00:00:00
-categories: [jekyll]
+categories: [blog]
 tags: [twitter, bot, data, scraping, python, Ireland, history, migration, portfolio, humanism]
 image: /img/post/2016-09-01-humanising-data-with-irish-ships/3-irish-ships-1.jpg
 image-source: https://www.flickr.com/photos/lennox_mcdough/10389431924/in/photolist-gQ5y9C-pUvV5X-9GJMw5-qyQHuc-88YMJT-5VhvAe-f2Y95t-pgcmxD-oYZjBm-oYZDHg-76odQz-8RQ1oZ-8Qd5pN-brsFHm-H2xiu-H2CTM-92qU3Z-8MbJMS-6mx7k9-7M3YTP-7HraDF-nnvxK4-5TbYir-dZAfkZ-dKnMPH-pJ8J8A-5pGRXQ-q3FN5N-7vfAFk-86Qb9Z-fDa9iR-jeZug9-6fMujm-6wNmZj-86Tgw1-jeXjz7-ntGEUp-92qUfH-brsF6j-oYZafL-GdTJqa-egRXk9-zsejUL-5pGPnQ-qySeU6-b25Rpk-buxqF8-qP1cg9-ebKKVX-6Nki8U
