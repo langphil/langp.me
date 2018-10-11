@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About
-description: Hello, I'm Phil. I'm a Web Developer and Creative Producer based in London. I'm a creative at heart. I'm also a bit of a data and privacy nerd. I aim to wield tech for good.
+description: Hello, I'm Phil. I'm a Web Developer based in London. I'm a creative at heart. I'm also a bit of a data and privacy nerd. I aim to wield tech for good.
 permalink: /about/
 ---
 <div class="my-img-about"></div>
 
-Hello, I'm **Phil**. I'm a Web Developer and Creative Producer based in London.
+Hello, I'm **Phil**. I'm a Web Developer based in London.
 
 #### A little bit about me
 I'm a creative at heart. I'm also a bit of a data and privacy nerd. I aim to wield tech for good.
@@ -21,13 +21,15 @@ Why not chat to me on [Twitter](http://www.twitter.com/{{ site.twitter_username 
 
 #### Teams I've been on
 
-**[ODI](https://theodi.org/ "Open Data Institute")** - (Developer)
+**[ODI](https://theodi.org/ "Open Data Institute")** - (Web Developer)
 
 **[IF](https://projectsbyif.com/ "Projects by IF")** - (Developer / Creative Technologist)
 
+**[infoNation](https://infonation.io/ "infoNation")** - (Web Developer)
+
 **[ODI](https://theodi.org/ "Open Data Institute")** - (Digital Production Editor)
 
-**[Citywire](http://citywire.co.uk/ "Citywire")** - (Picture Editor)
+**[Citywire](http://citywire.co.uk/ "Citywire")** - (Creative Producer)
 
 #### Find out more
 
